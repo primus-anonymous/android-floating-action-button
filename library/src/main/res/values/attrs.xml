@@ -16,9 +16,13 @@
         <attr name="fab_plusIconColor" format="color"/>
     </declare-styleable>
     <declare-styleable name="FloatingActionsMenu">
-        <attr name="fab_addButtonColorPressed" format="color"/>
-        <attr name="fab_addButtonColorNormal" format="color"/>
-        <attr name="fab_addButtonSize" format="enum">
+        <attr name="fab_menuButtonIcon" format="reference"/>
+        <attr name="fab_menuButtonIconExpanded" format="reference"/>
+        <attr name="fab_menuButtonColorNormalExpanded" format="color"/>
+        <attr name="fab_menuButtonColorPressed" format="color"/>
+        <attr name="fab_menuButtonColorPressedExpanded" format="color"/>
+        <attr name="fab_menuButtonColorNormal" format="color"/>
+        <attr name="fab_menuButtonSize" format="enum">
             <enum name="normal" value="0"/>
             <enum name="mini" value="1"/>
         </attr>
